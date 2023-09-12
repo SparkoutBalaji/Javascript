@@ -3,7 +3,7 @@
 multiple
 line comment
 */
-// alert('Hi, BALU');
+// alert('Hi, BALAJI');
 var a = 0;    //variable a initialize value o - this is a statement
 a = 10;       //assign a variable value 10
 a = "Hi, BALAJI N - Sparkout Tech Solutions \nSoftware Developer Trainee";  //javascript is a dynamically types laguage so am not put this variable is a number or string
