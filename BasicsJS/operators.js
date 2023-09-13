@@ -66,13 +66,13 @@ let gthenor = aa >= cc;
 console.log("Greater than or equal 2 > '3' is : ",gthenor);
 let lthenor = aa <= cc;
 console.log("Less than or Equal 2 <= '3' is : ",lthenor);
-let ternary = (2 == 2) ? true : false;
-console.log("ternary operator 2==2 is : ",ternary);
-let str1 = 'z';
-let str2 = 'c';
+let ternary = (2 != 2) ? true : false;
+console.log("ternary operator 2!=2 is : ",ternary);
+let str1 = 'a';
+let str2 = 'd';
 let str = str1 < str2;
 console.log("a < d is : ",str); //string's comparing
-let fname = "BALAJI";
+let fname = "";
 let lname = "N";
 let name = fname +" "+ lname;
 console.log(name); 
@@ -114,7 +114,7 @@ else
 
 //nullish coalescing operator
 console.log("Nullish Coalescing Operator :");
-let amount = null;
+let amount = '';
 let text = "Empty";
 let nullcoalescing = amount ?? text;
 console.log("Amount : ",nullcoalescing);
