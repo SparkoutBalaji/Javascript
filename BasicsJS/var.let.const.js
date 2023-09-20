@@ -64,6 +64,8 @@ local();  //accessed by call the function
 // console.log(blocal); //error
 // console.log(clocal); //error
 
+//global scope
+
 var abcd = 123;
 function myvar(){
   
@@ -73,7 +75,7 @@ console.log(abcd);  //123
 myvar(); //123
 
 
-//global scope
+
 let efgh = 11;
 function mylet(){
   console.log(efgh);
